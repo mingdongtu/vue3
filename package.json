@@ -39,7 +39,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test", // 可以在commit前执行自定义的命令
+      "pre-commit": "npm run lint", // 可以在commit前执行自定义的命令
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS" // 校验commit时添加的描述信息是否符合配置的commit规范
     }
   },
